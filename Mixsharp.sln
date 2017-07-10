@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnet-mix", "dotnet-mix\dotnet-mix.csproj", "{D4A00081-77B4-4453-B7FE-53BFBEF650A8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MixSharp", "MixSharp\MixSharp.csproj", "{D4A00081-77B4-4453-B7FE-53BFBEF650A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnet-mix-test", "dotnet-mix-test\dotnet-mix-test.csproj", "{4AE20681-2291-4221-BA08-421F81A2C426}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MixSharp.Test", "MixSharp.Test\MixSharp.Test.csproj", "{4AE20681-2291-4221-BA08-421F81A2C426}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

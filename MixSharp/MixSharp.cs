@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 using Newtonsoft.Json;
 using System.Configuration;
 
-namespace nnissen
+namespace MixSharp
 {
-    public class DotnetMix
+    public class MixSharp
     {
         public static Dictionary<string, string> manifest;
         public static string Mix(string path, string manifestDirectory = "")

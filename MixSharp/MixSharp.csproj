@@ -7,8 +7,8 @@
     <ProjectGuid>{D4A00081-77B4-4453-B7FE-53BFBEF650A8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>dotnet_mix</RootNamespace>
-    <AssemblyName>dotnet-mix</AssemblyName>
+    <RootNamespace>MixSharp</RootNamespace>
+    <AssemblyName>MixSharp</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -45,7 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DotnetMix.cs" />
+    <Compile Include="MixSharp.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
