@@ -53,7 +53,7 @@
   <ItemGroup>
     <Compile Include="MixSharpTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <None Include="stubs\public-mix-hot\hot" />
+    <None Include="fixtures\public-mix-hot\hot" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MixSharp\MixSharp.csproj">
@@ -63,9 +63,9 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <None Include="stubs\public-mix-hot\mix-manifest.json" />
-    <None Include="stubs\public-mix-prod\mix-manifest.json" />
-    <None Include="stubs\public-mix-dev\mix-manifest.json" />
+    <None Include="fixtures\public-mix-hot\mix-manifest.json" />
+    <None Include="fixtures\public-mix-prod\mix-manifest.json" />
+    <None Include="fixtures\public-mix-dev\mix-manifest.json" />
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
@@ -88,7 +88,7 @@
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PreBuildEvent>xcopy /Y /S "$(ProjectDir)stubs" "$(TargetDir)stubs" /i</PreBuildEvent>
+    <PreBuildEvent>xcopy /Y /S "$(ProjectDir)fixtures" "$(TargetDir)fixtures" /i</PreBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

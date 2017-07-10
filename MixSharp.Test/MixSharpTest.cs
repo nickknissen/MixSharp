@@ -35,7 +35,7 @@ namespace MixSharp
         [TestMethod]
         public void TestMix()
         {
-            ConfigurationManager.AppSettings["publicPath"] = @"\stubs\public-mix-dev";
+            ConfigurationManager.AppSettings["publicPath"] = @"\fixtures\public-mix-dev";
 
             var path = MixSharp.Mix("css/app.css");
             Assert.AreEqual("/css/app.css", path);
